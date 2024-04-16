@@ -68,7 +68,7 @@ header{
 
 @keyframes move-words{
   0%{
-    right: 100%;
+    right: 200%;
   }
   100%{
     right: 0
