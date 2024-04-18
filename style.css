@@ -20,14 +20,18 @@ header{
 }
 .text h1{
   font-size: 5em;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 0;
   animation: move-words 3s;
   position: relative;
+  font-family: Montserrat,sans-serif;
 }
 .text p{
   font-size: 1.25em;
   line-height: 1.6;
+}
+.text{
+  width: 470px;
 }
 
 .picture img{
@@ -74,6 +78,14 @@ header{
     right: 0
   }
 }
+@keyframes move-words2{
+  0%{
+    left: 200%;
+  }
+  100%{
+    left: 0
+  }
+}
 .s2images img{
   width: 150px;
 }
@@ -81,6 +93,45 @@ header{
 .s2images{
   display: flex;
   justify-content: space-between;
-  padding: 100px 200px;
-  margin: 100px 0;
+  padding: 30px 200px;
+  margin: 50px 0;
 }
+.section3{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 150px;
+  
+}
+
+.smilingpic{
+ 
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 40px;
+    animation: zoomin 2s
+  
+  }
+
+   .text2{
+  width: 30%;
+   line-height: 1.6;
+   font-size: 1.5em;
+  }
+
+  .text2 h1{
+    font-weight: 900;
+    font-size: 3em;
+    font-family: Montserrat,sans-serif;
+    animation: move-words2 3s;
+    position: relative;
+  }
+  .text2 li::marker{
+   color: #765aee;
+   font-size: 30px;
+  }
