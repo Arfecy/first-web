@@ -135,3 +135,22 @@ header{
    color: #765aee;
    font-size: 30px;
   }
+
+  .section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .image3{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 40px;
+    animation: zoomin 2s
+  }
