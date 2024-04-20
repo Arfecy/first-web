@@ -118,20 +118,20 @@ header{
   
   }
 
-   .text2{
+   .text2 , .text3{
   width: 30%;
    line-height: 1.6;
    font-size: 1.5em;
   }
 
-  .text2 h1{
+  .text2 h1 , .text3 h1{
     font-weight: 900;
     font-size: 3em;
     font-family: Montserrat,sans-serif;
     animation: move-words2 3s;
     position: relative;
   }
-  .text2 li::marker{
+  .text2 li::marker , .text3 li::marker{
    color: #765aee;
    font-size: 30px;
   }
@@ -141,6 +141,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 150px;
+    margin-top: 150px;
   }
 
   .image3{
@@ -153,4 +154,12 @@ header{
     margin-left: 10%;
     margin-top: 40px;
     animation: zoomin 2s
+  }
+
+  .text3 h1{
+    font-weight: 900;
+    font-size: 3em;
+    font-family: Montserrat,sans-serif;
+    animation: move-words 3s;
+    position: relative;
   }
