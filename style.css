@@ -246,6 +246,53 @@ header{
 
     }
     
+    .section7{
+      font-family: 'Open Sans',sans-serif;
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+    .pricing{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10% auto 0;
+      width: 1200px;
+      max-width: 100%;
+      gap: 50px;
+      font-weight: 300;
+    }
+    .pricing h5{
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin: 10px 10px;
+      text-align: center;
+    }
+    .pricing p{
+      font-size: large;
+      width: 300px;
+      padding-top: 20px;
+    }
+    .pricing h6{
+      font-size: 3.25rem;
+      padding: 0;
+      margin: 10px 10px;
+      font-weight: 600;
+    }
+    .option{
+      border-style: solid;
+      border-color: #765aee;
+      border-radius: 5%;
+      padding: 20px;
+    }
+    .pricing a{
+      border-style: solid;
+      border-color: #f1ae0e;
+      background-color: #f1ae0e;
+      border-radius: 5px;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: white;
+      margin-left: 10px;
+    }
 
-  
  
