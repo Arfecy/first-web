@@ -102,11 +102,12 @@ header{
   justify-content: center; 
   align-items: center;
   gap: 150px;
+  margin: 100px 0;
 }
 
 .smilingpic{
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -137,14 +138,17 @@ header{
     justify-content: center;
     align-items: center;
     gap: 150px;
-    margin-top: 150px;
-    width: 1500px;
+    width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+    padding: 100px 100px;
+  }
+  .text3{
+    width: 400px;
   }
   .image3{
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     overflow: hidden;
     display: flex;
@@ -305,7 +309,6 @@ header{
       line-height: 1.8;
       font-size: 20px;
       font-weight: 900;
-      
     }
    
    
