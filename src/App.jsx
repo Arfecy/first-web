@@ -24,7 +24,7 @@ function App() {
             </div>
           </div>
           <div className="picture">
-            <img src="/public/Images/icon.png"
+            <img src="/Images/icon.png"
               alt="" />
           </div>
         </div>
