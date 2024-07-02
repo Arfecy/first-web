@@ -6,8 +6,8 @@ import Slider from './Slider';
 function App() {
   return (
     <>
-      
-        <HamburgerMenu />
+
+      <HamburgerMenu />
       <section className="section1">
         <div className="wrapper">
           <div className="text">
@@ -24,27 +24,27 @@ function App() {
             </div>
           </div>
           <div className="picture">
-            <img src="images/icon.png"
+            <img src="/public/Images/icon.png"
               alt="" />
           </div>
         </div>
       </section>
       <section className="section2">
         <div className="s2images">
-          <div><img src="images/crolla.png"
+          <div><img src="/public/images/crolla.png"
             alt="" /></div>
-          <div><img src="images/binance.png"
+          <div><img src="/public/images/binance.png"
             alt="" /></div>
-          <div><img src="images/evga.png"
+          <div><img src="/public/images/evga.png"
             alt="" /></div>
-          <div><img src="images/tesla.png"
+          <div><img src="/public/images/tesla.png"
             alt="" /></div>
         </div>
 
       </section>
       <section className="section3">
         <div className="smilingpic">
-          <img src="images/smiling.png"
+          <img src="/public/images/smiling.png"
             alt="" />
         </div>
         <div className="text2">
@@ -69,7 +69,7 @@ function App() {
           <li>Mauris pellentesque pulvinar pellentesque</li>
         </div>
         <div className="image3">
-          <img src="images/vrpic.jpg"
+          <img src="/public/images/vrpic.jpg"
             alt="" />
         </div>
       </section>
@@ -84,22 +84,22 @@ function App() {
         </div>
         <div className="grid">
           <div>
-            <img src="images/avatar.png"
+            <img src="/public/images/avatar.png"
               alt="" />
             <h1>99.99% uptime</h1>
             <p>Sample text. Click to select the Text element</p>
           </div>
-          <div><img src="images/avatar.png"
+          <div><img src="/public/images/avatar.png"
             alt="" />
             <h1>600M+ Users</h1>
             <p>Sample text. Click to select the Text element</p>
           </div>
-          <div><img src="images/avatar.png"
+          <div><img src="/public/images/avatar.png"
             alt="" />
             <h1>100+ countries</h1>
             <p>Sample text. Click to select the Text element</p>
           </div>
-          <div><img src="images/avatar.png"
+          <div><img src="/public/images/avatar.png"
             alt="" />
             <h1>5+ Million
             </h1>
@@ -108,12 +108,12 @@ function App() {
         </div>
       </section>
       <section className="section6">
-        <div className="middlepic"><img src="images/avatar.png"
+        <div className="middlepic"><img src="/public/images/avatar.png"
           alt="" /></div>
         <h3>We are a team of tourist specialists passionate about exceeding all expectations with all your travel needs. A
           lacus vestibulum sed arcu non. Dolor magna eget est lorem ipsum dolor sit amet consectetur.</h3>
         <h4>Alessandro Jambrečina</h4>
-        <div className="middlepic" /><img src="images/avatar.png"
+        <div className="middlepic" /><img src="/public/images/avatar.png"
           alt="" />
       </section>
       <section className="section7">
@@ -157,7 +157,7 @@ function App() {
           </div>
         </SlideAnimation>
         <SlideAnimation direction="right">
-          <img src="images/iconbusiness.png"
+          <img src="/public/images/iconbusiness.png"
             alt="" />
         </SlideAnimation>
       </section>
