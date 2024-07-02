@@ -4,19 +4,19 @@ import BtnSlider from "./BtnSlider";
 import "./Slider.css";
 const dataSlider = [
   {
-    src: "/public/images/slider/1.jpg",
+    src: "/images/slider/1.jpg",
     id: 1
   },
   {
-    src: "/public/images/slider/2.jpg",
+    src: "/images/slider/2.jpg",
     id: 2
   },
   {
-    src: "/public/images/slider/3.jpg",
+    src: "/images/slider/3.jpg",
     id: 3
   },
   {
-    src: "/public/images/slider/4.jpg",
+    src: "/images/slider/4.jpg",
     id: 4
   }
 ]
