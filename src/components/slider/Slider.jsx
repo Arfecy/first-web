@@ -48,8 +48,8 @@ function Slider() {
 
 
   return (
-    <section className="section8" style={{ position: "relative", maxWidth: "100%" }}>
-      <img src={dataSlider[slideIndex - 1].src} style={{ position: "absolute", top: 0, left: 0, filter: "blur(4px)", width: "100%" }}></img>
+    <section className="section8" style={{ position: "relative", maxWidth: "100%", marginTop: "100px" }}>
+      <img src={dataSlider[slideIndex - 1].src} style={{ position: "absolute", top: 0, left: 0, filter: "blur(4px)", minWidth: "100%", minHeight: "100%" }}></img>
       <div className="container-slider">
         {dataSlider.map((obj, index) => {
           return (
