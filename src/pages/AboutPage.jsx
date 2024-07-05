@@ -15,7 +15,7 @@ function AboutPage() {
           <p>Our rigorous security and compliance standards are at the heart of all we do. We work tirelessly to protect
             you
             and your customers.</p>
-          <button>About us</button>
+
         </div>
         <div className="grid">
           <div>

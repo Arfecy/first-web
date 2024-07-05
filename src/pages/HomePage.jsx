@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../App.css';
 import HamburgerMenu from '../components/hamburgerMenu/HamburgerMenu';
 import SlideAnimation from "../components/slider/SlideAnimation";
@@ -17,9 +18,9 @@ function HomePage() {
               critical
               development work, eliminate toil, and deploy changes with ease.
             </p>
-            <div className="buttons">
-              <button>About us</button>
-              <button>Contact us</button>
+            <div>
+              <Link to="/about"><button className='btn-1'>About us</button></Link>
+              <Link to="/contact"><button className='btn-2'>Contact us</button></Link>
             </div>
           </div>
           <div className="picture">
