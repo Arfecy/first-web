@@ -48,7 +48,7 @@ header{
   padding-left: 40px;
   animation: zoomin 3s;
 }
-.buttons button{
+.btn-1{
   height: 50px;
   width: 120px;
   margin: 12px;
@@ -58,12 +58,16 @@ header{
   font-weight: bolder;
   font-size: 110%;
 }
-
-.buttons button:nth-child(2){
+.btn-2{
+  height: 50px;
+  width: 120px;
+  margin: 12px;
   background-color: #2b2933;
+  color: #f1ae0e;
   border-style: solid;
   border-color: #f1ae0e;
-  color: #f1ae0e;
+  font-weight: bolder;
+  font-size: 110%;
 }
 
 .section1{
